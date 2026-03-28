@@ -1,0 +1,10 @@
+{
+  "name": "bigtop",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "tooling/*",
+    "sandbox/*"
+  ]
+}

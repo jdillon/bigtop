@@ -1,0 +1,4 @@
+projects:
+  - 'packages/*'
+  - 'tooling/*'
+  - 'sandbox/*'

@@ -1,5 +1,11 @@
+node_modules/
+dist/
+tmp/
 
-# Beads / Dolt files (added by bd init)
+# Moon
+.moon/cache
+
+# Beads / Dolt
 .dolt/
 *.db
 .beads-credential-key
