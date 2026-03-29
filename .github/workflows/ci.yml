@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: git fetch origin main:main
+      - run: git fetch origin ${{ github.event.pull_request.base.ref }}
       - uses: moonrepo/setup-toolchain@v0
-      - run: moon ci
+      - run: moon ci --base ${{ github.event.pull_request.base.ref }}
