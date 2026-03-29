@@ -1,0 +1,11 @@
+node_modules/
+dist/
+tmp/
+
+# Moon
+.moon/cache
+
+# Beads / Dolt
+.dolt/
+*.db
+.beads-credential-key
