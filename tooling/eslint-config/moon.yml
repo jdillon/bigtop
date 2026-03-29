@@ -1,0 +1,4 @@
+language: 'typescript'
+tags: ['tooling']
+toolchains:
+  default: 'bun'
