@@ -6,6 +6,10 @@
 - **Moon manages bun** — don't run `bun install` manually
 - **ESM-first** — `"type": "module"` everywhere
 
+## Issue Tracking
+
+This project uses beads (`bd`). Follow all beads rules from `~/.agent/rules/beads.md` — especially epic/story/task hierarchy, status management, and closing rules.
+
 ## Commands
 
 ```bash
